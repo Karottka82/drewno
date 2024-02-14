@@ -18,7 +18,7 @@ export const FirstSection = () => {
         src={logoImage}
         alt="Logo"
         className="logo"
-        style={{ position: "absolute", top: 0, left: 0 }}
+        style={{ position: "absolute", top: 0, left: 0, width: "40%" }}
       />
     </div>
   );

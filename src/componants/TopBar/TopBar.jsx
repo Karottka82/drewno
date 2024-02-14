@@ -12,24 +12,18 @@ export const TopBar = () => {
         className="TopBarsection"
         style={{ backgroundColor: "#1f100d", marginTop: "0px" }}
       >
-        <Container
-          className="containerdstyle"
-          style={{
-            marginLeft: "60%",
-            marginTop: "20px",
-          }}
-        >
+        <Container className="containerdstyle">
           <Navbar.Brand
             href="/"
             className="NavbarBrand-custom"
-            style={{ color: "#f2d8c7", fontSize: "18px" }}
+            style={{ color: "#f2d8c7", fontSize: "18px", marginLeft: "auto" }}
           >
-            STRONA GŁOWNA{" "}
+            STRONA GŁOWNA
           </Navbar.Brand>
           <Nav
             ref={navRef}
             className="me-auto"
-            style={{ color: "#f2d8c7", fontSize: "16px" }}
+            style={{ color: "#f2d8c7", fontSize: "16px", marginLeft: "auto" }}
           >
             <Nav.Link
               href="/about"

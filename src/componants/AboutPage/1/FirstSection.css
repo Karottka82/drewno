@@ -1,0 +1,23 @@
+.ContenerAbout {
+  margin-top: 17%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+.TextAbout {
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  text-align: justify;
+}
+.cover {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 30px;
+}
+.HeaderAbout {
+  color: #1f100d;
+}
