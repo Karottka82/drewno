@@ -2,7 +2,7 @@ import React from "react";
 import Image from "../../assets/jpg/1.jpg";
 import logoImage from "../../assets/jpg/logo1.png";
 
-export const FirstSection = () => {
+export const FirstSectionHome = () => {
   return (
     <div
       className="midle-section-img-container"

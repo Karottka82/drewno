@@ -1,1 +1,6 @@
-
+.containerdnavbar.navbar-expand.navbar-light {
+  justify-content: flex-end;
+}
+.justify-content-start.container {
+  justify-content: flex-end;
+}

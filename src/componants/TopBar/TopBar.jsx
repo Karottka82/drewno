@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "./TopBar.css";
 
@@ -9,21 +9,32 @@ export const TopBar = () => {
     <>
       <br />
       <Navbar
-        className="TopBarsection"
-        style={{ backgroundColor: "#1f100d", marginTop: "0px" }}
+        style={{
+          backgroundColor: "#1f100d",
+          marginTop: "10px",
+          justifyContent: "flex-end",
+        }}
       >
-        <Container className="containerdstyle">
+        <Container className="containerdstyle justify-end">
           <Navbar.Brand
             href="/"
             className="NavbarBrand-custom"
-            style={{ color: "#f2d8c7", fontSize: "18px", marginLeft: "auto" }}
+            style={{
+              color: "#f2d8c7",
+              fontSize: "18px",
+              marginTop: "20px",
+            }}
           >
             STRONA GŁOWNA
           </Navbar.Brand>
           <Nav
             ref={navRef}
             className="me-auto"
-            style={{ color: "#f2d8c7", fontSize: "16px", marginLeft: "auto" }}
+            style={{
+              color: "#f2d8c7",
+              fontSize: "16px",
+              marginTop: "20px",
+            }}
           >
             <Nav.Link
               href="/about"
