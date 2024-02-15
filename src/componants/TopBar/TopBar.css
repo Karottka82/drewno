@@ -1,6 +1,9 @@
-.containerdnavbar.navbar-expand.navbar-light {
-  justify-content: flex-end;
+.navbar-brand,
+.nav-link {
+  font-size: 16px;
+  color: #f2d8c7;
 }
-.justify-content-start.container {
-  justify-content: flex-end;
+
+.navbar-brand {
+  padding: 8px;
 }
